@@ -1,6 +1,6 @@
 <template>
 	<nav
-		class="fixed top-0 left-0 w-screen flex justify-between p-[1.5em] font-medium items-center bg-veryLightGray">
+		class="fixed top-0 left-0  w-full flex justify-between p-[1.5em] items-center bg-veryLightGray">
 		<img :src="logo" alt="logo workit" class="block" />
 		<button @click="isOpenNavMenu = !isOpenNavMenu">
 			<img :src="burgerOpen" alt="menu open icon" v-if="!isOpenNavMenu" />
@@ -10,10 +10,10 @@
 			<div
 				v-if="isOpenNavMenu"
 				class="fixed w-full top-[5em] left-0 h-[calc(100%-5em)] bg-veryDarkViolet flex flex-col items-center px-[1.3em] py-[2.2em] gap-y-[.8em]">
-				<img :src="navPattern" alt="" class="absolute bottom-0" />
+				<img :src="navPattern" alt="" class="absolute bottom-0 w-full" />
 				<a
 					href="#"
-					class="text-veryLightGray uppercase text-[2rem] last:border py-[.5em] last:w-full text-center z-10"
+					class="text-veryLightGray uppercase text-[2rem] last:border py-[.5em] last:w-full last:text-center z-10"
 					v-for="item in mobileMenuLinks"
 					@click="isOpenNavMenu = false"
 					:key="nanoid()"
