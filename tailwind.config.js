@@ -30,8 +30,6 @@ export default {
 				center: true,
 			},
 		},
-
-		fontWeight: {},
 	},
 	plugins: [],
 }

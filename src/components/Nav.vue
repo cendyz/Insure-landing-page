@@ -1,6 +1,6 @@
 <template>
 	<nav
-		class="fixed top-0 left-0  w-full flex justify-between p-[1.5em] items-center bg-veryLightGray">
+		class="fixed top-0 left-0  w-full flex justify-between p-[1.5em] items-center bg-veryLightGray z-[100]">
 		<img :src="logo" alt="logo workit" class="block" />
 		<button @click="isOpenNavMenu = !isOpenNavMenu">
 			<img :src="burgerOpen" alt="menu open icon" v-if="!isOpenNavMenu" />
