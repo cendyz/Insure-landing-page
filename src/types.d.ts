@@ -33,4 +33,42 @@ declare module '@/data' {
 			alt: string
 		}
 	}
+
+	export const footerIconsData: {
+		one: {
+			icon: string
+			alt: string
+		}
+		two: {
+			icon: string
+			alt: string
+		}
+		three: {
+			icon: string
+			alt: string
+		}
+		four: {
+			icon: string
+			alt: string
+		}
+	}
+
+	export const footerLinksData: {
+		0: {
+			title: string
+			links: string[]
+		}
+		1: {
+			title: string
+			links: string[]
+		}
+		2: {
+			title: string
+			links: string[]
+		}
+		3: {
+			title: string
+			links: string[]
+		}
+	}
 }
