@@ -21,7 +21,7 @@
 				</p>
 				<button
 					type="button"
-					class="uppercase mt-[2em] py-[.4em] px-[1.7em] border-2 text-[1.9rem] relative">
+					class="uppercase mt-[2em] py-[.4em] px-[1.7em] border-2 text-[1.9rem] relative lg:hover:text-black lg:hover:bg-veryLightGray transition-colors">
 					view plans
 				</button>
 			</div>
@@ -44,7 +44,7 @@
 				<img
 					:src="bottomRightLines"
 					alt=""
-					class="absolute bottom-[-38%] right-0 z-0 lg:right-full lg:bottom-[-55%]" />
+					class="absolute bottom-[-38%] right-0 z-0 lg:right-[91%] lg:bottom-[-65%]" />
 			</picture>
 		</div>
 	</header>

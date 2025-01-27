@@ -1,6 +1,6 @@
 <template>
 	<nav
-		class="fixed top-0 left-0  w-full flex justify-between p-[1.5em] items-center bg-veryLightGray z-[100] lg:static lg:container">
+		class="fixed top-0 left-0 w-full flex justify-between p-[1.5em] items-center bg-veryLightGray z-[100] lg:static lg:container">
 		<img :src="logo" alt="logo workit" class="block" />
 		<button @click="isOpenNavMenu = !isOpenNavMenu" class="lg:hidden">
 			<img :src="burgerOpen" alt="menu open icon" v-if="!isOpenNavMenu" />
@@ -21,11 +21,10 @@
 				>
 			</div>
 		</Transition>
-		<div
-			class="space-x-[2em] hidden lg:flex">
+		<div class="space-x-[2em] hidden lg:flex">
 			<a
 				href="#"
-				class="text-veryGrayishViolet uppercase text-[2rem] last:border-2 py-[.5em]  last:text-center last:px-[1.5em] last:border-veryDarkViolet"
+				class="text-veryGrayishViolet uppercase text-[2rem] text-gray-500 lg:hover:text-veryDarkViolet last:border-2 py-[.5em] last:text-center last:px-[1.5em] last:border-veryDarkViolet lg:last:hover:text-veryLightGray lg:last:hover:bg-veryDarkViolet transition-colors"
 				v-for="item in mobileMenuLinks"
 				@click="isOpenNavMenu = false"
 				:key="nanoid()"

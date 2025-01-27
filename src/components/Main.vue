@@ -1,5 +1,6 @@
 <template>
-	<main class="px-[1.6em] py-[12em] grid gap-y-[8em]">
+	<main
+		class="px-[1.6em] py-[12em] grid gap-y-[8em] lg:py-[25em] lg:px-0 lg:pb-[11em] lg:container">
 		<firstSection />
 		<secondSection />
 	</main>
