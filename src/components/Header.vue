@@ -11,7 +11,7 @@
 				<div
 					class="hidden lg:block h-[2px] rounded-2xl w-[40%] bg-veryLightGray"></div>
 				<h1
-					class="text-[4.5rem] font-display font-display400 z-10 relative lg:text-[7.3rem] lg:mt-[.8em]">
+					class="text-[4.5rem] font-display font-display400 z-10 relative lg:text-[7.3rem] lg:mt-[.8em] lg:leading-none">
 					Humanizing your insurance.
 				</h1>
 				<p class="mt-[1em] leading-[1.8] z-10 relative lg:text-[1.6rem]">
@@ -30,7 +30,7 @@
 				<img
 					:src="mobilePattern"
 					alt="dad, mom and two kids"
-					class="hidden w-full lg:block lg:absolute lg:right-[1.5em] lg:w-[52%] z-10" />
+					class="hidden w-full lg:block lg:absolute lg:right-[1.5em] lg:w-[52%] z-10 lg:max-w-[40em]" />
 			</picture>
 			<picture>
 				<source :srcset="desktopTopLines" media="(min-width: 992px)" />
